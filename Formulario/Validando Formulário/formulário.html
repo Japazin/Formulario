@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Formulario/Validando Formulário/style.css" media="screen" />
+    <title>Formulário</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Formulário</h1>
+      <ul>  
+ <li>Nenhum campo pode estar vazio.</li>
+ <li>Usuário só poderá conter letras e/ou números.</li>
+ <li>Usuário só poderá ter entre 3 e 12 caracteres.</li>
+ <li>Senha só poderá ter entre 6 e 12 caracteres.</li>
+      </ul> 
+      <form action="/" method="post" class="formulario">
+        <label>Nome:</label>
+        <input type="text" class="nome validar">
+        <label>Sobrenome:</label>
+        <input type="text" class="Sobrenome validar">
+        <label>CPF:</label>
+        <input type="text" class="CPF validar">
+        <label>Usuário:</label>
+        <input type="text" class="Usuário validar">
+        <label>Senha:</label>
+        <input type="password" class="Senha validar">
+        <label>Repetir senha:</label>
+        <input type="password" class="Repetir-senha validar">
+        <button type="submit">Enviar</button>
+      </form>
+</section>
+   <script src="/Formulario/Validando Formulário/CPFClass.js"></script> 
+   <script src="/Formulario/Validando Formulário/validação.js"></script>
+</body>
+</html>
